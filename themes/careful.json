@@ -16,7 +16,9 @@
         "toolbar.background": "#151515",
         "editor.gutter.background": "#151515",
         "surface.background": "#151515",
+        "terminal.background": "#151515",
         "elevated_surface.background": "#222222",
+        "drop_target.background": "#303030cc",
 
         "border": "#404040",
         "border.variant": "#303030",
@@ -39,7 +41,6 @@
 
         "pane.focused_border": "#603a9c",
         "panel.focused_border": "#603a9c",
-
         "tab.active_background": "#303030",
         "tab.inactive_background": "#151515",
 
@@ -53,37 +54,62 @@
         "editor.foreground": "#cccccc",
         "editor.line_number": "#505050",
         "editor.active_line.background": "#303030d4",
-        "editor.active_line_number": "#eeeeee",
+        "editor.active_line_number": "#ffffff",
         "editor.invisible": "#303030",
         "editor.subheader.background": "#303030",
         "editor.highlighted_line.background": "#303030",
-        "editor.document_highlight.bracket_background": "#505050",
+        "editor.document_highlight.bracket_background": "#60606040",
         "editor.document_highlight.read_background": "#00000000",
         "editor.document_highlight.write_background": "#00000000",
+        "editor.wrap_guide": "#303030",
+        "editor.active_wrap_guide": null,
 
-        "search.match_background": "#603a9ccc",
+        "search.match_background": "#603a9c70",
+
+        "scrollbar_thumb.background": "#33333380",
+        "scrollbar.thumb.hover_background": "#333333cc",
+        "scrollbar.thumb.border": null,
+        "scrollbar.track.background": null,
 
         "info": "#83afe5",
         "info.background": "#303030",
         "info.border": "#603a9ccc",
-
         "success": "#83ce4d",
+        "success.background": "#83ce4d90",
+        "success.border": null,
         "warning": "#d8a13b",
+        "warning.background": "#d8a13b90",
+        "warning.border": null,
         "error": "#ff615a",
+        "error.background": null,
+        "error.border": null,
         "hidden": "#606060",
+        "hidden.background": null,
+        "hidden.border": null,
         "ignored": "#707070",
+        "ignored.background": null,
+        "ignored.border": null,
         "hint": "#707070",
+        "hint.background": null,
+        "hint.border": null,
         "created": "#a6d189",
+        "created.background": null,
+        "created.border": null,
         "modified": "#ebcb8b",
+        "modified.background": null,
+        "modified.border": null,
         "deleted": "#ff615a",
+        "deleted.background": null,
+        "deleted.border": null,
 
         "players": [
           {
             "cursor": "#ffffff",
             "background": "#ff0000",
-            "selection": "#60606070"
+            "selection": "#606060aa"
           }
         ],
+
         "syntax": {
           "variable": { "color": "#c0c0c0" },
           "comment": { "color": "#666666" },
@@ -112,7 +138,6 @@
 
           "punctuation.special": { "color": "#df8c8c" },
           "string.escape": { "color": "#df8c8c" },
-          "string.special": { "color": "#df8c8c" },
           "keyword.return": { "color": "#df8c8c" },
           "keyword.exception": { "color": "#df8c8c" },
 
