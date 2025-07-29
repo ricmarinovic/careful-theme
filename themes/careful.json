@@ -30,13 +30,13 @@
         "element.active": "#505050",
         "element.background": "#202020",
         "element.disabled": "#ff0000",
-        "element.hover": "#303030",
+        "element.hover": "#603a9c50",
         "element.selected": "#603a9c90",
 
         "ghost_element.active": "#505050",
         "ghost_element.background": "#202020",
         "ghost_element.disabled": "#ff0000",
-        "ghost_element.hover": "#202020",
+        "ghost_element.hover": "#603a9c50",
         "ghost_element.selected": "#603a9c90",
 
         "pane.focused_border": "#603a9c",
@@ -68,8 +68,9 @@
 
         "scrollbar_thumb.background": "#33333380",
         "scrollbar.thumb.hover_background": "#333333cc",
-        "scrollbar.thumb.border": null,
-        "scrollbar.track.background": null,
+        "scrollbar.thumb.border": "#303030",
+        "scrollbar.track.border": "#303030",
+        "scrollbar.track.background": "#101010",
 
         "info": "#83afe5",
         "info.background": "#303030",
