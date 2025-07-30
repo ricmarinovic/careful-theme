@@ -20,7 +20,7 @@
         "elevated_surface.background": "#222222",
         "drop_target.background": "#303030cc",
 
-        "border": "#404040",
+        "border": "#505050",
         "border.variant": "#303030",
         "border.focused": "#603a9c",
         "border.selected": "#ff0000",
@@ -56,11 +56,11 @@
         "editor.active_line.background": "#303030d4",
         "editor.active_line_number": "#ffffff",
         "editor.invisible": "#303030",
-        "editor.subheader.background": "#303030",
+        "editor.subheader.background": "#603a9c99",
         "editor.highlighted_line.background": "#303030",
         "editor.document_highlight.bracket_background": "#60606040",
-        "editor.document_highlight.read_background": "#00000000",
-        "editor.document_highlight.write_background": "#00000000",
+        "editor.document_highlight.read_background": "#303030",
+        "editor.document_highlight.write_background": "#ff0000",
         "editor.wrap_guide": "#303030",
         "editor.active_wrap_guide": null,
 
