@@ -44,10 +44,10 @@
         "tab.active_background": "#303030",
         "tab.inactive_background": "#101010",
 
-        "text": "#cccccc",
+        "text": "#e0e0e0",
         "text.accent": "#a26eea",
-        "text.muted": "#cccccc",
-        "text.disabled": "#707070",
+        "text.muted": "#c0c0c0",
+        "text.disabled": "#909090",
         "text.placeholder": "#606060",
         "link_text.hover": "#a26eea",
 
