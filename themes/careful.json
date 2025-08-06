@@ -60,7 +60,7 @@
         "editor.highlighted_line.background": "#303030",
         "editor.document_highlight.bracket_background": "#60606040",
         "editor.document_highlight.read_background": "#303030",
-        "editor.document_highlight.write_background": "#ff0000",
+        "editor.document_highlight.write_background": "#404040",
         "editor.wrap_guide": "#303030",
         "editor.active_wrap_guide": null,
 
