@@ -24,12 +24,13 @@
         "border.variant": "#303030",
         "border.focused": "#603a9c",
         "border.selected": "#ff0000",
-        "border.transparent": "#ff0000",
+        "border.transparent": "#505050",
         "border.disabled": "#ff0000",
+        "pane_group.border": "#505050",
 
         "element.active": "#505050",
         "element.background": "#202020",
-        "element.disabled": "#ff0000",
+        "element.disabled": "#505050",
         "element.hover": "#603a9c50",
         "element.selected": "#603a9c90",
 
@@ -55,22 +56,30 @@
         "editor.line_number": "#505050",
         "editor.active_line.background": "#303030d4",
         "editor.active_line_number": "#ffffff",
-        "editor.invisible": "#303030",
+        "editor.invisible": "#404040",
         "editor.subheader.background": "#603a9c99",
         "editor.highlighted_line.background": "#303030",
-        "editor.document_highlight.bracket_background": "#60606040",
+        "editor.document_highlight.bracket_background": "#606060aa",
         "editor.document_highlight.read_background": "#303030",
         "editor.document_highlight.write_background": "#404040",
         "editor.wrap_guide": "#303030",
         "editor.active_wrap_guide": null,
+        "editor.indent_guide": "#303030",
+        "editor.indent_guide_active": "#505050",
+        "editor.code_lens.foreground": "#a26eeaaa",
 
         "search.match_background": "#603a9c70",
+        "search.active_match_background": "#603a9ccc",
 
-        "scrollbar_thumb.background": "#33333380",
+        "scrollbar.thumb.background": "#33333380",
+        "scrollbar.thumb.active_background": "#333333aa",
         "scrollbar.thumb.hover_background": "#333333cc",
         "scrollbar.thumb.border": "#303030",
         "scrollbar.track.border": "#303030",
         "scrollbar.track.background": "#101010",
+
+        "debugger.accent": "#dc3e42",
+        "editor.debugger_active_line.background": "#ffaa001e",
 
         "info": "#83afe5",
         "info.background": "#303030",
@@ -105,8 +114,8 @@
 
         "players": [
           {
-            "cursor": "#a26eea",
-            "background": "#ff0000",
+            "cursor": "#ffffff",
+            "background": "#00ff00",
             "selection": "#606060aa"
           }
         ],
@@ -152,11 +161,12 @@
           "operator": { "color": "#dba849" },
 
           "string": { "color": "#71945c" },
-
+          "string.regex": { "color": "#90c275" },
           "character": { "color": "#90c275" },
           "string.special": { "color": "#90c275" },
 
-          "emphasis.strong": { "font_weight": 900 }
+          "emphasis.strong": { "font_weight": 900 },
+          "link_uri": { "color": "#c48ed1", "font_style": "italic" }
         }
       }
     }
